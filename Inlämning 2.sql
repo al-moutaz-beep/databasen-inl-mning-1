@@ -234,4 +234,14 @@ END;
 
 DELIMITER ;
 
+UPDATE Böcker
+SET lagerstatus = 10
+WHERE ISBN = '9781111111111';
+
+SELECT ISBN, lagerstatus
+FROM Böcker
+WHERE ISBN = '9781111111111';
+
+INSERT INTO Orderrader (order_id, ISBN, antal)
+VALUES (1, '9781111111111', 2);
 
