@@ -234,12 +234,4 @@ END;
 
 DELIMITER ;
 
--- =========================
--- 9. BACKUP & RESTORE
--- =========================
 
--- Backup:
--- mysqldump -u root -p Bokhandel > backup.sql
-
--- Restore:
--- mysql -u root -p Bokhandel < backup.sql
