@@ -1,0 +1,56 @@
+#Bokhandel – Inlämning 2
+
+##Beskrivning
+
+Denna inlämning visar hur en databas för en bokhandel används i praktiken med hjälp av SQL.
+Fokus ligger på att arbeta med data, inte bara skapa tabeller.
+
+---
+
+##Innehåll i koden
+
+Koden innehåller:
+
+* Skapande av databasen och tabeller för kunder, böcker och beställningar
+* Testdata för att kunna arbeta med databasen
+
+---
+
+##Funktioner
+
+Datahantering
+
+* SELECT används för att visa data
+* WHERE och ORDER BY används för filtrering och sortering
+
+##Ändringar
+
+* UPDATE ändrar befintlig data
+* DELETE tar bort data
+* Transaction används med ROLLBACK för att ångra ändringar
+
+ Relationer
+
+* JOIN används för att koppla ihop tabeller
+* GROUP BY används för att analysera data (t.ex. antal beställningar per kund)
+
+---
+
+ ##Extra funktioner
+
+* Index används för snabbare sökning
+* Constraint säkerställer att pris är större än 0
+* Triggers används för:
+
+  * logga nya kunder
+  * automatiskt minska lager vid beställning
+
+---
+
+##Slutsats
+
+Koden visar en fungerande databas där man kan:
+
+* hämta och analysera data
+* uppdatera och ta bort information
+* använda enklare och mer avancerade funktioner i SQL
