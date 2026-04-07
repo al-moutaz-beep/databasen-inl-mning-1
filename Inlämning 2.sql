@@ -245,3 +245,9 @@ WHERE ISBN = '9781111111111';
 INSERT INTO Orderrader (order_id, ISBN, antal)
 VALUES (1, '9781111111111', 2);
 
+
+INSERT INTO Kunder (namn, epost)
+VALUES ('Test Person', 'test2@mail.com');
+
+SELECT * FROM Kundlogg;
+
